@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Vitalidade - Fisioterapia e Pilates</title>
+    <style>
+        /* Inserindo o CSS fornecido diretamente no arquivo */
+        html, body {
+            margin: 0;
+            scroll-behavior: smooth; /* Para um deslize suave entre seções */
+        }
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+        .wrapper {
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+            background-color: aquamarine;
+        }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 85%;
+        }
+        .menu {
+            width: 15%;
+            background-color: aqua;
+            padding: 10px 20px 0px;
+            position: sticky; /* Mantém o menu visível ao rolar */
+            top: 0;
+            height: 100vh;
+        }
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu li {
+            margin-bottom: 15px;
+        }
+        .menu a {
+            text-decoration: none;
+            color: #056c6c;
+            font-weight: bold;
+        }
+        .header {
+            background-color: rgb(5, 108, 108);
+            min-height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content {
+            background-color: white;
+            min-height: 400px;
+            padding: 40px;
+            border-bottom: 5px solid aquamarine;
+        }
+        .footer {
+            background-color: rgb(99, 56, 240);
+            min-height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 40px;
+            color: white;
+        }
+        table {
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Menu de Navegação Lateral -->
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Página Principal</a></li>
+                <li><a href="#sobre">Sobre a Clínica</a></li>
+                <li><a href="#horario">Horário de Atendimento</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <!-- SEÇÃO 1: HOME -->
+            <section id="home">
+                <div class="header">
+                    <img src="https://via.placeholder.com/1020x150/056c6c/ffffff?text=Clinica+Vitalidade+Fisioterapia" alt="Banner Home" width="100%">
+                </div>
+                <div class="content">
+                    <h1>Bem-vindo à Clínica Vitalidade</h1>
+                    <p>Nossa clínica é especializada em promover o bem-estar através da <strong>Fisioterapia</strong>, com foco em reabilitação postural e no método <strong>Pilates</strong>.</p>
+                    <p>Oferecemos um ambiente moderno e profissionais capacitados para cuidar da sua saúde e bem-estar físico, prevenindo lesões e melhorando sua qualidade de vida.</p>
+                </div>
+            </section>
+
+            <!-- SEÇÃO 2: SOBRE -->
+            <section id="sobre">
+                <div class="header">
+                    <img src="https://via.placeholder.com/1020x150/056c6c/ffffff?text=Nossa+Equipe+e+Especialidades" alt="Banner Sobre" width="100%">
+                </div>
+                <div class="content">
+                    <h2>Sobre a Clínica</h2>
+                    <p>A Clínica Vitalidade atua com excelência no mercado de reabilitação física. Nossa equipe utiliza conhecimentos avançados de <strong>Ergonomia</strong> e exercícios terapêuticos adaptados a cada paciente.</p>
+                    <p>Trabalhamos para garantir que nossos pacientes tenham uma vida sem dores, focando na correção da causa dos problemas posturais e no fortalecimento muscular preventivo.</p>
+                </div>
+            </section>
+
+            <!-- SEÇÃO 3: HORÁRIOS -->
+            <section id="horario">
+                <div class="header">
+                    <img src="https://via.placeholder.com/1020x150/056c6c/ffffff?text=Serviços+e+Tabela+de+Horários" alt="Banner Horários" width="100%">
+                </div>
+                <div class="content">
+                    <h2>Horários de Atendimento</h2>
+                    <p>Confira nossa disponibilidade para consultas e sessões semanais:</p>
+                    
+                    <table border="1" width="100%" cellpadding="10">
+                        <thead>
+                            <tr>
+                                <th>Serviços</th>
+                                <th>Segunda a Sexta</th>
+                                <th>Sábados</th>
+                                <th>Feriados</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Fisioterapia Clínica</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 14h</td>
+                                <td>08h - 14h</td>
+                            </tr>
+                            <tr>
+                                <td>Pilates Clínico</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 14h</td>
+                                <td>08h - 14h</td>
+                            </tr>
+                            <tr>
+                                <td>Consultoria Ergonômica</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 18h</td>
+                                <td align="center">-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- SEÇÃO 4: CONTATO -->
+            <section id="contato">
+                <div class="header">
+                    <img src="https://via.placeholder.com/1020x150/056c6c/ffffff?text=Fale+Conosco" alt="Banner Contato" width="100%">
+                </div>
+                <div class="content">
+                    <h2>Contato e Localização</h2>
+                    <p><strong>WhatsApp:</strong> (15) 99999-9999 | <strong>Endereço:</strong> Rua da Saúde, 123 - Centro</p>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.0!2d-47.45!3d-23.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMwJzA1LjQiUyA0N8KwMjcnMzEuNyJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                    <hr>
+
+                    <h3>Envie uma Mensagem</h3>
+                    <form action="#" method="post">
+                        <label>Nome:</label><br>
+                        <input type="text" name="nome" required style="width: 50%;"><br><br>
+
+                        <label>E-mail:</label><br>
+                        <input type="email" name="email" required style="width: 50%;"><br><br>
+
+                        <label>Assunto:</label><br>
+                        <input type="text" name="assunto" style="width: 50%;"><br><br>
+
+                        <label>Mensagem:</label><br>
+                        <textarea name="mensagem" rows="4" style="width: 50%;"></textarea><br><br>
+
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </form>
+                </div>
+            </section>
+
+            <!-- Rodapé Único -->
+            <div class="footer">
+                <p><strong>Clínica Vitalidade &copy; 2026</strong></p>
+                <p>Especialista em Fisioterapia Traumato-Ortopédica e Ergonomia.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
